@@ -1,0 +1,12 @@
+Some Features:
+1.Statically typed: Statically typed languages require the programmer to declare the type of a variable before using it, and the compiler checks that the variable is used consistently with its declared type. This happens at compile time, before the program is run.
+2.Garbage Collection: Garbage collection is the process of automatically freeing up memory that is no longer needed by the program.
+3.Go does not support classes and objects: Go does not support traditional classes and objects, it provides a lightweight alternative using structs and methods.
+4.Go does not support inheritance: Go does not provide direct support for inheritance, its use of composition allows you to achieve similar functionality in a more flexible and modular way.
+
+Other:
+"go mod init <module-name>":
+The above command initializes a new module with the given name. It creates a new go.mod file in the current directory that specifies the module's name and the Go version it is compatible with.
+When you create a new Go project, it is recommended to initialize it as a module using "go mod init".
+"go mod init <module-name>" is required to initialize a new Go module and specify its name and version. It is an essential step in managing dependencies and sharing code in a structured and consistent manner.
+
